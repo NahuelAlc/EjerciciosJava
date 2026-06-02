@@ -20,7 +20,8 @@ public class Pelicula{
         this.puntuacion = puntuacion;  
     }
 
-    void Pelicula(String titulo, String director, int anioEstreno, double puntuacion) { //fix main -> pelicula
+    void Pelicula(String codigoPelicula, String titulo, String director, int anioEstreno, double puntuacion) { //fix main -> pelicula
+        this.codigoPelicula = codigoPelicula;
         this.titulo = titulo;
         this.director = director;
         this.anioEstreno = anioEstreno;
