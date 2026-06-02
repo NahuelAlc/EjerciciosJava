@@ -16,6 +16,12 @@ public class Pelicula{
     public double getPuntuacion(){
         return puntuacion;
     }
+    public int getAnioEstreno(){
+        return anioEstreno;
+    }
+    public String getDirector(){
+        return director;
+    }
     public void setPuntuacion(double puntuacion){
         this.puntuacion = puntuacion;  
     }
